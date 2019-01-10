@@ -1,0 +1,19 @@
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body, html, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: $white;
+  font-family: "Montserrat";
+}
+
+.center {
+  margin: 0 auto;
+}
+
+
