@@ -4,7 +4,7 @@
   width: 1440px;
   height: 4616px;
   box-sizing: border-box;
-  background-image: url("assets/bg.jpg");
+  background-image: url("assets/bg.webp");
   background-repeat: no-repeat;
   box-shadow: inset 0px 0px 100px 100px rgba($white, .75);
   padding: 0px 140px;
@@ -27,6 +27,24 @@
         li {
           padding: 0 10px;
           cursor: pointer;
+
+          &::before {
+            content: '';
+            display: block;
+            width: 0%;
+            height: 1px;
+            background-color: $blue;
+            margin-bottom: 3px;
+            transition: all ease 0.2s;
+          }
+
+          &:hover {
+            text-shadow: 1px 0 0 $blue;
+
+            &::before {
+              width: 100%;
+            }
+          }
         }
       }
     }
@@ -43,7 +61,7 @@
       font-size: 48px;
     }
 
-    .button{
+    .button {
       width: 211px;
       height: 46px;
       line-height: 46px;
@@ -52,7 +70,27 @@
       cursor: pointer;
       color: $plain-white;
       border-radius: 23px;
-      background-image: linear-gradient(45deg, #102397 0%, #187adf 55%, #00eaf8 100%);
+      box-shadow: 1px 1px 2px #0000004a;
+      background: linear-gradient(45deg, rgba(0, 212, 255, 1) 0%, rgba(26, 131, 221, 1) 33%, rgba(26, 131, 221, 1) 66%, rgba(0, 212, 255, 1) 100%);
+      background-size: 200%, 200%;
+      background-position: 0px 0px;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-position: -200px 0px;
+      }
     }
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
   }
 }
