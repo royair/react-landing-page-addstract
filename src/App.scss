@@ -34,7 +34,7 @@
             width: 0%;
             height: 1px;
             background-color: $blue;
-            margin-bottom: 3px;
+            margin-bottom: 5px;
             transition: all ease 0.2s;
           }
 
@@ -55,7 +55,8 @@
     margin-right: -40px;
     background: url("assets/laptop.webp") 100% 0% no-repeat;
     min-height: 668px;
-
+    animation: wave 5s infinite;
+    animation-timing-function: ease-in-out;
 
     h1 {
       font-size: 48px;
@@ -68,6 +69,7 @@
       text-align: center;
       margin-top: 68px;
       cursor: pointer;
+      user-select: none;
       color: $plain-white;
       border-radius: 23px;
       box-shadow: 1px 1px 2px #0000004a;
@@ -83,14 +85,23 @@
   }
 }
 
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%
+@keyframes wave {
+  0%, 20%, 50%, 80%, 100% {
+    background-position: 100% 0px;
   }
-  50% {
-    background-position: 100% 50%
+
+  40% {
+    background-position: 100% -10px;
   }
-  100% {
-    background-position: 0% 50%
+  60% {
+    background-position: 100% -5px;
   }
+
+  /*0%, 100% {
+    background-position: 100% 5px;
+  }
+
+  25% {
+    background-position: 100% -5px;
+  }*/
 }
