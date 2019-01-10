@@ -7,7 +7,7 @@
   background-image: url("assets/bg.jpg");
   background-repeat: no-repeat;
   box-shadow: inset 0px 0px 100px 100px rgba($white, .75);
-  padding: 27px 140px 0 140px;
+  padding: 0px 140px;
 
   header {
     display: flex;
@@ -15,6 +15,8 @@
     align-items: center;
 
     nav {
+      padding: 27px 0;
+
       ul {
         list-style-type: none;
         display: flex;
@@ -27,6 +29,30 @@
           cursor: pointer;
         }
       }
+    }
+  }
+
+  section.impress {
+    padding-top: 125px;
+    margin-right: -40px;
+    background: url("assets/laptop.webp") 100% 0% no-repeat;
+    min-height: 668px;
+
+
+    h1 {
+      font-size: 48px;
+    }
+
+    .button{
+      width: 211px;
+      height: 46px;
+      line-height: 46px;
+      text-align: center;
+      margin-top: 68px;
+      cursor: pointer;
+      color: $plain-white;
+      border-radius: 23px;
+      background-image: linear-gradient(45deg, #102397 0%, #187adf 55%, #00eaf8 100%);
     }
   }
 }

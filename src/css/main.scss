@@ -1,5 +1,5 @@
 @import './colors.scss';
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 
 body, html, #root {
@@ -9,11 +9,22 @@ body, html, #root {
 
 body {
   background-color: $white;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: $grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin: 0;
 }
 
 .center {
   margin: 0 auto;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 
