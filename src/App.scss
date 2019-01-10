@@ -54,7 +54,7 @@
     padding-top: 125px;
     margin-right: -40px;
     background: url("assets/laptop.webp") 100% 0% no-repeat;
-    min-height: 668px;
+    min-height: 530px;
     animation: wave 5s infinite;
     animation-timing-function: ease-in-out;
 
@@ -83,6 +83,23 @@
       }
     }
   }
+
+  section.trusted {
+    img {
+      padding-bottom: 17px;
+      border-bottom: 1px solid $light-blue;
+    }
+
+    h3 {
+      margin-top: 38px;
+      font-size: 20px;
+      font-weight: 500;
+      color: $azure;
+      font-family: "Montserrat";
+      text-align: center;
+    }
+  }
+
 }
 
 @keyframes wave {

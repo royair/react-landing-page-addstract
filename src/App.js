@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logosTrustedBy from './assets/logos-trusted-by.webp';
 import './App.scss';
 
 
@@ -38,12 +39,17 @@ class App extends Component {
 
 
         <section className="impress">
-            <h1>
-              Do you want to
-              <br/>
-              <span className="bold">impress</span> your clients?</h1>
+          <h1>
+            Do you want to
+            <br/>
+            <span className="bold">impress</span> your clients?</h1>
 
-            <div className="button">Get early access</div>
+          <div className="button">Get early access</div>
+        </section>
+
+        <section className="trusted">
+          <img src={logosTrustedBy} alt=""/>
+          <h3>Trusted by the world’s best</h3>
         </section>
       </div>
     );
