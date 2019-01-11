@@ -63,20 +63,7 @@
     }
 
     .button {
-      width: 211px;
-      height: 46px;
-      line-height: 46px;
-      text-align: center;
       margin-top: 68px;
-      cursor: pointer;
-      user-select: none;
-      color: $plain-white;
-      border-radius: 23px;
-      box-shadow: 1px 1px 2px #0000004a;
-      background: linear-gradient(45deg, rgba(0, 212, 255, 1) 0%, rgba(26, 131, 221, 1) 33%, rgba(26, 131, 221, 1) 66%, rgba(0, 212, 255, 1) 100%);
-      background-size: 200%, 200%;
-      background-position: 0px 0px;
-      transition: all 0.2s ease;
 
       &:hover {
         background-position: -200px 0px;
@@ -85,13 +72,8 @@
   }
 
   section.trusted {
-    img {
-      padding-bottom: 17px;
-      border-bottom: 1px solid $light-blue;
-    }
-
     h3 {
-      margin-top: 38px;
+      margin-top: 90px;
       font-size: 20px;
       font-weight: 500;
       color: $azure;
@@ -100,7 +82,112 @@
     }
   }
 
+  section.a1 {
+    margin-top: 230px;
+
+    p {
+      width: 300px;
+    }
+  }
+
+  section.a2 {
+    margin-top: 350px;
+    text-align: right;
+
+    .container {
+      display: inline-block;
+      width: 475px;
+      text-align: left;
+
+      p {
+        width: 300px;
+      }
+    }
+  }
+
+  section.a3 {
+    margin-top: 330px;
+
+    p {
+      width: 300px;
+    }
+  }
+
+  section.a4 {
+    margin-top: 200px;
+    text-align: center;
+
+    p {
+      margin: 10px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 480px;
+    }
+  }
+
+  section.a5 {
+    margin-top: 175px;
+    text-align: center;
+
+    p {
+      margin: 10px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 330px;
+    }
+  }
+
+  section.a6 {
+    margin-top: 95px;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid $bluehr;
+    border-bottom: 2px solid $bluehr;
+
+    h3 {
+      flex-grow: 1;
+    }
+
+    .button {
+      margin: 0 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }
+
+hr {
+  border: 2px solid $bluehr;
+}
+
+
+.button {
+  width: 211px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: $plain-white;
+  border-radius: 23px;
+  box-shadow: 1px 1px 2px #0000004a;
+  background: linear-gradient(45deg, rgba(0, 212, 255, 1) 0%, rgba(26, 131, 221, 1) 33%, rgba(26, 131, 221, 1) 66%, rgba(0, 212, 255, 1) 100%);
+  background-size: 200%, 200%;
+  background-position: 0px 0px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-position: -200px 0px;
+  }
+}
+
 
 @keyframes wave {
   0%, 20%, 50%, 80%, 100% {

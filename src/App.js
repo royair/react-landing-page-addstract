@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logosTrustedBy from './assets/logos-trusted-by.webp';
 import './App.scss';
 
 
@@ -48,9 +47,62 @@ class App extends Component {
         </section>
 
         <section className="trusted">
-          <img src={logosTrustedBy} alt=""/>
           <h3>Trusted by the world’s best</h3>
         </section>
+
+
+        <section className="a1">
+          <h2>The simplest way to have <br/> a professional website.</h2>
+          <p>Get all the benefits of an in-wall or in-ceiling speaker system
+            without any of the hassle. Just replace a few lights around your
+            house, and start streaming crisp, clear audio, everywhere.
+          </p>
+        </section>
+
+        <section className="a2">
+          <div className="container">
+            <h2>Display your product
+              as never before</h2>
+            <p>Get all the benefits of an in-wall or in-ceiling speaker system
+              without any of the hassle. Just replace a few lights around your
+              house, and start streaming crisp, clear audio, everywhere.
+            </p>
+          </div>
+        </section>
+
+        <section className="a3">
+          <h2>The simplest way to have<br/> a professional website.</h2>
+          <p>Get all the benefits of an in-wall or in-ceiling speaker system
+            without any of the hassle. Just replace a few lights around your
+            house, and start streaming crisp, clear audio, everywhere.
+          </p>
+        </section>
+
+        <section className="a4">
+          <h2>Layered Video Player</h2>
+          <p>Video player like never before</p>
+          <div className="button">Get early access</div>
+        </section>
+
+
+        <section className="a5">
+          <h2>Statistics & Information</h2>
+          <p>Numbers speak louder than words</p>
+          <div className="button">View all data</div>
+        </section>
+
+        <section className="a6">
+          <h3>Build your own future. <br/>
+            Download now free and get 100% boost!</h3>
+          <div className="button">Get early access</div>
+          <div className="button">Newsletter</div>
+        </section>
+
+        <footer>
+          <nav></nav>
+        </footer>
+
+
       </div>
     );
   }
