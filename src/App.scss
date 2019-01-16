@@ -190,8 +190,12 @@
         margin-top: 5px;
       }
 
+      .social-icons {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 215px;
+      }
     }
-
 
     .credits {
       display: flex;
