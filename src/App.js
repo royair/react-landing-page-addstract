@@ -103,19 +103,19 @@ class App extends Component {
             <div></div>
             <div>
               <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Advantages</a></li>
-                <li><a href="">Preview</a></li>
-                <li><a href="">Video</a></li>
+                <li><a>Home</a></li>
+                <li><a>About us</a></li>
+                <li><a>Advantages</a></li>
+                <li><a>Preview</a></li>
+                <li><a>Video</a></li>
               </ul>
             </div>
             <div>
               <ul>
-                <li><a href="">Terms & Conditions</a></li>
-                <li><a href="">Privacy policy</a></li>
-                <li><a href="">Support</a></li>
-                <li><a href="">Chrome extension</a></li>
+                <li><a>Terms & Conditions</a></li>
+                <li><a>Privacy policy</a></li>
+                <li><a>Support</a></li>
+                <li><a>Chrome extension</a></li>
               </ul>
             </div>
 
