@@ -2,7 +2,6 @@
 
 .App {
   width: 1440px;
-  height: 4616px;
   box-sizing: border-box;
   background-image: url("assets/bg.webp");
   background-repeat: no-repeat;
@@ -18,7 +17,6 @@
       padding: 27px 0;
 
       ul {
-        list-style-type: none;
         display: flex;
         margin: 0;
         font-size: 16px;
@@ -135,7 +133,7 @@
       margin: 10px 0;
     }
 
-    .button {
+    .button-hollow {
       display: inline-block;
       margin-top: 330px;
     }
@@ -161,12 +159,72 @@
       }
     }
   }
+
+  footer {
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0 50px 0;
+
+      ul {
+        li {
+          margin-bottom: 21px;
+
+          a {
+            &:hover {
+              text-shadow: 1px 0 0 $blue;
+            }
+          }
+        }
+      }
+
+      .address {
+        padding: 0 25px;
+        line-height: 1.5;
+        text-align: right;
+      }
+
+      svg.pin {
+        fill: #91b7dc;
+        margin-top: 5px;
+      }
+
+    }
+
+
+    .credits {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 52px;
+      padding: 0 20px;
+      font-size: 12px;
+      background-color: $bluehr;
+
+      .logo {
+        svg {
+          fill: $grey;
+          height: 18px;
+        }
+      }
+
+      .copyrights {
+      }
+
+      .credits-link {
+        a {
+          color: $blue;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
 hr {
   border: 2px solid $bluehr;
 }
-
 
 .button {
   width: 211px;
@@ -188,6 +246,38 @@ hr {
   }
 }
 
+.button-hollow {
+  width: 211px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: $plain-white;
+  border-radius: 23px;
+  padding: 2px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px #0000004a;
+  background: linear-gradient(45deg, rgba(0, 212, 255, 1) 0%, rgba(26, 131, 221, 1) 33%, rgba(26, 131, 221, 1) 66%, rgba(0, 212, 255, 1) 100%);
+  background-size: 200%, 200%;
+  background-position: 0px 0px;
+  transition: all 0.2s ease;
+
+  span {
+    background-color: #f8fafd;
+    border-radius: 23px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $grey;
+  }
+
+  &:hover {
+    background-position: -200px 0px;
+  }
+}
 
 @keyframes wave {
   0%, 20%, 50%, 80%, 100% {

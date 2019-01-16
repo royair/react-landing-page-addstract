@@ -14,6 +14,11 @@ body {
   color: $grey;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0;
@@ -30,6 +35,28 @@ h3 {
 p {
   font-size: 16px;
   line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
 }
 
 .center {
