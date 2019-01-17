@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/react-landing-page-addstract/static/js/runtime~main.7cb99d56.js"
   },
   {
-    "revision": "78d431102d089ea1806a",
-    "url": "/react-landing-page-addstract/static/js/main.78d43110.chunk.js"
+    "revision": "daa18d69619c75391803",
+    "url": "/react-landing-page-addstract/static/js/main.daa18d69.chunk.js"
   },
   {
     "revision": "82a6f16d8c21c02b1fe2",
     "url": "/react-landing-page-addstract/static/js/1.82a6f16d.chunk.js"
   },
   {
-    "revision": "78d431102d089ea1806a",
+    "revision": "daa18d69619c75391803",
     "url": "/react-landing-page-addstract/static/css/main.90feeed6.chunk.css"
   },
   {
-    "revision": "c1e857889a7492b21a878edc7f93a4da",
+    "revision": "0bea00f18e4d7d2d1bdaac095bc30cc4",
     "url": "/react-landing-page-addstract/index.html"
   }
 ];
